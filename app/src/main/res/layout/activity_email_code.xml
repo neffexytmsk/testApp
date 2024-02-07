@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:width="48dp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:height="48dp"
+            android:background="@drawable/btn_code"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:width="48dp"
+            android:height="48dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/btn_code"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:width="48dp"
+            android:height="48dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/btn_code"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="48dp"
+            android:height="48dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/btn_code"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textViewTimer"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
